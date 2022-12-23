@@ -1,0 +1,72 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+
+}
+  
+.Table20{
+  position: relative;
+}
+.Table10{
+  margin-top: 0%;
+  float: left;
+  width: 30%;
+}
+.Table5{
+  position:absolute;
+  left:250px; 
+  top:0px;
+}
+.Table2{
+  position: absolute;
+  left: 485px;
+  top: 0px;
+}
+.Table1{
+  position: absolute;
+  left: 250px;
+  top: 620px;
+}
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.money1{
+  position: absolute;
+  left: 485px;
+  top: 580px;
+}
+
+th, td {
+  text-align: left;
+  padding: 1px;
+}
+
+tr:nth-child(even) {
+  background-color: #e6e4e4;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other on screens that are smaller than 600 px */
+@media screen and (max-column: 600px) {
+  .column {
+    margin: 12px;
+    width: 50%;
+  }
+}
+
+table, tr, th, td{
+  margin-bottom: 13px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: Arial;
+  font-size: 13;
+}
+
+

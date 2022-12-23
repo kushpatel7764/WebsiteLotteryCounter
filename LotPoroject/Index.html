@@ -1,0 +1,636 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lottery Counter</title>
+  <link rel="stylesheet" href="Gird.Css">
+</head>
+<body>
+
+  <div class="row">
+    <div class="Table30">
+  <table class = "Lottery30">
+    <tr>
+      <th>$30</th>
+      <th> Open </th>
+       <th> Close </th> 
+       <th> Sell </th>
+      </th>
+    </tr>
+    
+    <tr> 
+      <td>1</td>
+      <td class="open30"  id="open1"><input inputmode="numeric" type="number" name="open30" id="open1" min="0" max ="999"></td>
+      <td class="close30" id="close1"><input inputmode="numeric" type="number" name="close30" id="close1" min="0" max ="999"></td>
+      <td class="sell30" id="sell1"></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td class="open30" id="open2"><input inputmode="numeric" type="number" name="open30" id="open2" min="0" max ="999"></td>
+      <td class="close30" id="close2"><input inputmode="numeric" type="number" name="close30" id="close2" min="0" max ="999"></td>
+      <td class="sell30" id="sell2"></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td class="open30" id="open3"><input inputmode="numeric" type="number" name="open30" id="open3" min="0" max ="999"></td>
+      <td class="close30" id="close3"><input inputmode="numeric" type="number" name="close30" id="close3" min="0" max ="999"></td>
+      <td class="sell30" id="sell3"></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td class="open30" id="open4"><input inputmode="numeric" type="number" name="open30" id="open4" min="0" max ="999"></td>
+      <td class="close30" id="close4"><input inputmode="numeric" type="number" name="close30" id="close4" min="0" max ="999"></td>
+      <td class="sell30" id="sell04"></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td class="open30" id="open5"><input inputmode="numeric" type="number" name="open30" id="open5" min="0" max ="999"></td>
+      <td class="close30" id="close5"><input inputmode="numeric" type="number" name="close30" id="close5" min="0" max ="999"></td>
+      <td class="sell30" id="sell05"></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td class="open30" id="open6"><input inputmode="numeric" type="number" name="open30" id="open6" min="0" max ="999"></td>
+      <td class="close30" id="close6"><input inputmode="numeric" type="number" name="close30" id="close6" min="0" max ="999"></td>
+      <td class="sell30" id="sell6"></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td class="open30" id="open7"><input inputmode="numeric" type="number" name="open30" id="open7" min="0" max ="999"></td>
+      <td class="close30" id="close7"><input inputmode="numeric" type="number" name="close30" id="close7" min="0" max ="999"></td>
+      <td class="sell30" id="sell7"></td>
+    </tr>
+    <tr>
+      <td class="open30" id="open14">Total:</td>
+      <td></td>
+      <td class="sell30" id="sell14"></td>
+      <td id="sell4"></td>
+    </tr>
+    <tr>
+      <td class="open30" id="open14">Money: </td>
+      <td></td>
+      <td></td>
+      <td class="Money" id="Money30"></td>
+    </tr>
+  </table>
+  </div>
+
+  <div class="Table20">
+  <table class = "Lottery20">
+    <tr>
+      <th>$20</th>
+      <th> Open </th>
+       <th> Close </th> 
+       <th> Sell </th>
+      </th>
+    </tr>
+    <tr> 
+      <td>8</td>
+      <td class="open20"  id="open1"><input inputmode="numeric" type="number" name="open20" id="open1" min="0" max ="999"></td>
+      <td class="close20" id="close1"><input inputmode="numeric" type="number" name="close20" id="close1" min="0" max ="999"></td>
+      <td class="sell20" id="sell1"></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td class="open20" id="open2"><input inputmode="numeric" type="number" name="open20" id="open2" min="0" max ="999"></td>
+      <td class="close20" id="close2"><input inputmode="numeric" type="number" name="close20" id="close2" min="0" max ="999"></td>
+      <td class="sell20" id="sell2"></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td class="open20" id="open3"><input inputmode="numeric" type="number" name="open20" id="open3" min="0" max ="999"></td>
+      <td class="close20" id="close3"><input inputmode="numeric" type="number" name="close20" id="close3" min="0" max ="999"></td>
+      <td class="sell20" id="sell3"></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td class="open20" id="open4"><input inputmode="numeric" type="number" name="open20" id="open4" min="0" max ="999"></td>
+      <td class="close20" id="close4"><input inputmode="numeric" type="number" name="close20" id="close4" min="0" max ="999"></td>
+      <td class="sell20" id="sell4"></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td class="open20" id="open5"><input inputmode="numeric" type="number" name="open20" id="open5" min="0" max ="999"></td>
+      <td class="close20" id="close5"><input inputmode="numeric" type="number" name="close20" id="close5" min="0" max ="999"></td>
+      <td class="sell20" id="sell05"></td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td class="open20" id="open6"><input inputmode="numeric" type="number" name="open20" id="open6" min="0" max ="999"></td>
+      <td class="close20" id="close6"><input inputmode="numeric" type="number" name="close20" id="close6" min="0" max ="999"></td>
+      <td class="sell20" id="sell6"></td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td class="open20" id="open7"><input inputmode="numeric" type="number" name="open20" id="open7" min="0" max ="999"></td>
+      <td class="close20" id="close7"><input inputmode="numeric" type="number" name="close20" id="close7" min="0" max ="999"></td>
+      <td class="sell20" id="sell7"></td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td class="open20" id="open8"><input inputmode="numeric" type="number" name="open20" id="open8" min="0" max ="999"></td>
+      <td class="close20" id="close8"><input inputmode="numeric" type="number" name="close20" id="close8" min="0" max ="999"></td>
+      <td class="sell20" id="sell8"></td>
+    </tr>
+    <tr>
+      <td>Total:</td>
+      <td></td>
+      <td></td>
+      <td id="sell5"></td>
+    </tr>
+    <tr>
+      <td class="open20" id="open10">Money:</td>
+      <td></td>
+      <td></td>
+      <td  class="Money" id="Money20"></td>
+    </tr>
+</table>
+  </div>
+ 
+  <div class="Table10">
+    <table class = "Lottery10">
+      <tr>
+        <th>$10</th>
+        <th> Open </th>
+         <th> Close </th> 
+         <th> Sell </th>
+      </tr>
+      <tr> 
+        <td>16</td>
+        <td class="open10"  id="open1"><input inputmode="numeric" type="number" name="open10" id="open1" min="0" max ="999"></td>
+        <td class="close10" id="close1"><input inputmode="numeric" type="number" name="close10" id="close1" min="0" max ="999"></td>
+        <td class="sell10" id="sell1"></td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td class="open10" id="open2"><input inputmode="numeric" type="number" name="open10" id="open2" min="0" max ="999"></td>
+        <td class="close10" id="close2"><input inputmode="numeric" type="number" name="close10" id="close2" min="0" max ="999"></td>
+        <td class="sell10" id="sell2"></td>
+      </tr>
+      <tr>
+        <td>18</td>
+        <td class="open10" id="open3"><input inputmode="numeric" type="number" name="open10" id="open3" min="0" max ="999"></td>
+        <td class="close10" id="close3"><input inputmode="numeric" type="number" name="close10" id="close3" min="0" max ="999"></td>
+        <td class="sell10" id="sell3"></td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td class="open10" id="open4"><input inputmode="numeric" type="number" name="open10" id="open4" min="0" max ="999"></td>
+        <td class="close10" id="close4"><input inputmode="numeric" type="number" name="close10" id="close4" min="0" max ="999"></td>
+        <td class="sell10" id="sell4"></td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td class="open10" id="open5"><input inputmode="numeric" type="number" name="open10" id="open5" min="0" max ="999"></td>
+        <td class="close10" id="close5"><input inputmode="numeric" type="number" name="close10" id="close5" min="0" max ="999"></td>
+        <td class="sell10" id="sell05"></td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td class="open10" id="open6"><input inputmode="numeric" type="number" name="open10" id="open6" min="0" max ="999"></td>
+        <td class="close10" id="close6"><input inputmode="numeric" type="number" name="close10" id="close6" min="0" max ="999"></td>
+        <td class="sell10" id="sell6"></td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td class="open10" id="open7"><input inputmode="numeric" type="number" name="open10" id="open7" min="0" max ="999"></td>
+        <td class="close10" id="close7"><input inputmode="numeric" type="number" name="close10" id="close7" min="0" max ="999"></td>
+        <td class="sell10" id="sell7"></td>
+      </tr>
+      <tr>
+        <td>23</td>
+        <td class="open10" id="open8"><input inputmode="numeric" type="number" name="open10" id="open8" min="0" max ="999"></td>
+        <td class="close10" id="close8"><input inputmode="numeric" type="number" name="close10" id="close8" min="0" max ="999"></td>
+        <td class="sell10" id="sell8"></td>
+      </tr>
+      <tr>
+        <td>24</td>
+        <td class="open10" id="open9"><input inputmode="numeric" type="number" name="open10" id="open9" min="0" max ="999"></td>
+        <td class="close10" id="close9"><input inputmode="numeric" type="number" name="close10" id="close9" min="0" max ="999"></td>
+        <td class="sell10" id="sell9"></td>
+      </tr>
+      <tr>
+        <td>25</td>
+        <td class="open10" id="open10"><input inputmode="numeric" type="number" name="open10" id="open10" min="0" max ="999"></td>
+        <td class="close10" id="close10"><input inputmode="numeric" type="number" name="close10" id="close10" min="0" max ="999"></td>
+        <td class="sell10" id="sell10"></td>
+      </tr>
+      <tr>
+        <td>26</td>
+        <td class="open10" id="open11"><input inputmode="numeric" type="number" name="open10" id="open11" min="0" max ="999"></td>
+        <td class="close10" id="close11"><input inputmode="numeric" type="number" name="close10" id="close11" min="0" max ="999"></td>
+        <td class="sell10" id="sell11"></td>
+      </tr>
+      <tr>
+        <td>27</td>
+        <td class="open10" id="open12"><input inputmode="numeric" type="number" name="open10" id="open12" min="0" max ="999"></td>
+        <td class="close10" id="close12"><input inputmode="numeric" type="number" name="close10" id="close12" min="0" max ="999"></td>
+        <td class="sell10" id="sell12"></td>
+      </tr>
+      <tr>
+        <td>28</td>
+        <td class="open10" id="open13"><input inputmode="numeric" type="number" name="open10" id="open13" min="0" max ="999"></td>
+        <td class="close10" id="close13"><input inputmode="numeric" type="number" name="close10" id="close13" min="0" max ="999"></td>
+        <td class="sell10" id="sell13"></td>
+      </tr>
+      <tr>
+        <td>29</td>
+        <td class="open10" id="open14"><input inputmode="numeric" type="number" name="open10" id="open14" min="0" max ="999"></td>
+        <td class="close10" id="close14"><input inputmode="numeric" type="number" name="close10" id="close14" min="0" max ="999"></td>
+        <td class="sell10" id="sell14"></td>
+        
+      </tr>
+      <tr>
+        <td>30</td>
+        <td class="open10" id="open15"><input inputmode="numeric" type="number" name="open10" id="open15" min="0" max ="999"></td>
+        <td class="close10" id="close15"><input inputmode="numeric" type="number" name="close10" id="close15" min="0" max ="999"></td>
+        <td class="sell10" id="sell15"></td>
+      </tr>
+      <tr>
+        <td>Total:</td>
+        <td></td>
+        <td></td>
+        <td id="sell100"></td>
+      </tr>
+      <tr>
+        <td>Money:</td>
+        <td></td>
+        <td></td>
+        <td  class="Money" id="Money10"></td>
+      </tr>
+  </table>
+</div>
+<div class="Table5">
+  <table class = "Lottery5">
+    <tr>
+      <th>$5</th>
+      <th> Open </th>
+       <th> Close </th> 
+       <th> Sell </th>
+      </th>
+    </tr>
+    <tr> 
+      <td>31</td>
+      <td class="open005"  id="open1"><input inputmode="numeric" type="number" name="open005" id="open1" min="0" max ="999"></td>
+      <td class="close005" id="close1"><input inputmode="numeric" type="number" name="close005" id="close1" min="0" max ="999"></td>
+      <td class="sell005" id="sell1"></td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td class="open005" id="open2"><input inputmode="numeric" type="number" name="open005" id="open2" min="0" max ="999"></td>
+      <td class="close005" id="close2"><input inputmode="numeric" type="number" name="close005" id="close2" min="0" max ="999"></td>
+      <td class="sell005" id="sell2"></td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td class="open005" id="open3"><input inputmode="numeric" type="number" name="open005" id="open3" min="0" max ="999"></td>
+      <td class="close005" id="close3"><input inputmode="numeric" type="number" name="close005" id="close3" min="0" max ="999"></td>
+      <td class="sell005" id="sell3"></td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td class="open005" id="open4"><input inputmode="numeric" type="number" name="open005" id="open4" min="0" max ="999"></td>
+      <td class="close005" id="close4"><input inputmode="numeric" type="number" name="close005" id="close4" min="0" max ="999"></td>
+      <td class="sell005" id="sell4"></td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td class="open005" id="open5"><input inputmode="numeric" type="number" name="open005" id="open5" min="0" max ="999"></td>
+      <td class="close005" id="close5"><input inputmode="numeric" type="number" name="close005" id="close5" min="0" max ="999"></td>
+      <td class="sell005" id="sell05"></td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td class="open005" id="open6"><input inputmode="numeric" type="number" name="open005" id="open6" min="0" max ="999"></td>
+      <td class="close005" id="close6"><input inputmode="numeric" type="number" name="close005" id="close6" min="0" max ="999"></td>
+      <td class="sell005" id="sell6"></td>
+    </tr>
+    <tr>
+      <td>37</td>
+      <td class="open005" id="open7"><input inputmode="numeric" type="number" name="open005" id="open7" min="0" max ="999"></td>
+      <td class="close005" id="close7"><input inputmode="numeric" type="number" name="close005" id="close7" min="0" max ="999"></td>
+      <td class="sell005" id="sell7"></td>
+    </tr>
+    <tr>
+      <td>38</td>
+      <td class="open005" id="open8"><input inputmode="numeric" type="number" name="open005" id="open8" min="0" max ="999"></td>
+      <td class="close005" id="close8"><input inputmode="numeric" type="number" name="close005" id="close8" min="0" max ="999"></td>
+      <td class="sell005" id="sell8"></td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td class="open005" id="open9"><input inputmode="numeric" type="number" name="open005" id="open9" min="0" max ="999"></td>
+      <td class="close005" id="close9"><input inputmode="numeric" type="number" name="close005" id="close9" min="0" max ="999"></td>
+      <td class="sell005" id="sell9"></td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td class="open005" id="open10"><input inputmode="numeric" type="number" name="open005" id="open10" min="0" max ="999"></td>
+      <td class="close005" id="close10"><input inputmode="numeric" type="number" name="close005" id="close10" min="0" max ="999"></td>
+      <td class="sell005" id="sell10"></td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td class="open005" id="open11"><input inputmode="numeric" type="number" name="open005" id="open11" min="0" max ="999"></td>
+      <td class="close005" id="close11"><input inputmode="numeric" type="number" name="close005" id="close11" min="0" max ="999"></td>
+      <td class="sell005" id="sell11"></td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td class="open005" id="open12"><input inputmode="numeric" type="number" name="open005" id="open12" min="0" max ="999"></td>
+      <td class="close005" id="close12"><input inputmode="numeric" type="number" name="close005" id="close12" min="0" max ="999"></td>
+      <td class="sell005" id="sell12"></td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td class="open005" id="open13"><input inputmode="numeric" type="number" name="open005" id="open13" min="0" max ="999"></td>
+      <td class="close005" id="close13"><input inputmode="numeric" type="number" name="close005" id="close13" min="0" max ="999"></td>
+      <td class="sell005" id="sell13"></td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td class="open005" id="open14"><input inputmode="numeric" type="number" name="open005" id="open14" min="0" max ="999"></td>
+      <td class="close005" id="close14"><input inputmode="numeric" type="number" name="close005" id="close14" min="0" max ="999"></td>
+      <td class="sell005" id="sell14"></td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td class="open005" id="open15"><input inputmode="numeric" type="number" name="open005" id="open15" min="0" max ="999"></td>
+      <td class="close005" id="close15"><input inputmode="numeric" type="number" name="close005" id="close15" min="0" max ="999"></td>
+      <td class="sell005" id="sell15"></td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td class="open005" id="open16"><input inputmode="numeric" type="number" name="open005" id="open16" min="0" max ="999"></td>
+      <td class="close005" id="close16"><input inputmode="numeric" type="number" name="close005" id="close16" min="0" max ="999"></td>
+      <td class="sell005" id="sell16"></td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td class="open005" id="open17"><input inputmode="numeric" type="number" name="open005" id="open17" min="0" max ="999"></td>
+      <td class="close005" id="close17"><input inputmode="numeric" type="number" name="close005" id="close17" min="0" max ="999"></td>
+      <td class="sell005" id="sell17"></td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td class="open005" id="open18"><input inputmode="numeric" type="number" name="open005" id="open18" min="0" max ="999"></td>
+      <td class="close005" id="close18"><input inputmode="numeric" type="number" name="close005" id="close18" min="0" max ="999"></td>
+      <td class="sell005" id="sell18"></td>
+    </tr>
+    <tr>
+      <td>49</td>
+      <td class="open005" id="open19"><input inputmode="numeric" type="number" name="open005" id="open19" min="0" max ="999"></td>
+      <td class="close005" id="close19"><input inputmode="numeric" type="number" name="close005" id="close19" min="0" max ="999"></td>
+      <td class="sell005" id="sell19"></td>
+    </tr>
+    <tr>
+      <td>50</td>
+      <td class="open005" id="open20"><input inputmode="numeric" type="number" name="open005" id="open20" min="0" max ="999"></td>
+      <td class="close005" id="close20"><input inputmode="numeric" type="number" name="close005" id="close20" min="0" max ="999"></td>
+      <td class="sell005" id="sell20"></td>
+    </tr>
+    <tr>
+      <td>Total:</td>
+      <td></td>
+      <td></td>
+      <td id="sell101"></td>
+    </tr>
+    <td>Money:</td>
+    <td></td>
+    <td></td>
+    <td  class="Money" id="Money005"></td> 
+    <tr>
+
+    </tr>
+</table>
+</div>
+<div class="Table2">
+<table class = "Lottery2">
+  <tr>
+    <th>$2</th>
+    <th> Open </th>
+     <th> Close </th> 
+     <th> Sell </th>
+    </th>
+  </tr>
+  <tr> 
+    <td>51</td>
+    <td class="open002"  id="open1"><input inputmode="numeric" type="number" name="open002" id="open1" min="0" max ="999"></td>
+    <td class="close002" id="close1"><input inputmode="numeric" type="number" name="close002" id="close1" min="0" max ="999"></td>
+    <td class="sell002" id="sell1"></td>
+  </tr>
+  <tr>
+    <td>52</td>
+    <td class="open002" id="open2"><input inputmode="numeric" type="number" name="open002" id="open2" min="0" max ="999"></td>
+    <td class="close002" id="close2"><input inputmode="numeric" type="number" name="close002" id="close2" min="0" max ="999"></td>
+    <td class="sell002" id="sell2"></td>
+  </tr>
+  <tr>
+    <td>53</td>
+    <td class="open002" id="open3"><input inputmode="numeric" type="number" name="open002" id="open3" min="0" max ="999"></td>
+    <td class="close002" id="close3"><input inputmode="numeric" type="number" name="close002" id="close3" min="0" max ="999"></td>
+    <td class="sell002" id="sell3"></td>
+  </tr>
+  <tr>
+    <td>54</td>
+    <td class="open002" id="open4"><input inputmode="numeric" type="number" name="open002" id="open4" min="0" max ="999"></td>
+    <td class="close002" id="close4"><input inputmode="numeric" type="number" name="close002" id="close4" min="0" max ="999"></td>
+    <td class="sell002" id="sell4"></td>
+  </tr>
+  <tr>
+    <td>55</td>
+    <td class="open002" id="open5"><input inputmode="numeric" type="number" name="open002" id="open5" min="0" max ="999"></td>
+    <td class="close002" id="close5"><input inputmode="numeric" type="number" name="close002" id="close5" min="0" max ="999"></td>
+    <td class="sell002" id="sell05"></td>
+  </tr>
+  <tr>
+    <td>56</td>
+    <td class="open002" id="open6"><input inputmode="numeric" type="number" name="open002" id="open6" min="0" max ="999"></td>
+    <td class="close002" id="close6"><input inputmode="numeric" type="number" name="close002" id="close6" min="0" max ="999"></td>
+    <td class="sell002" id="sell6"></td>
+  </tr>
+  <tr>
+    <td>57</td>
+    <td class="open002" id="open7"><input inputmode="numeric" type="number" name="open002" id="open7" min="0" max ="999"></td>
+    <td class="close002" id="close7"><input inputmode="numeric" type="number" name="close002" id="close7" min="0" max ="999"></td>
+    <td class="sell002" id="sell7"></td>
+  </tr>
+  <tr>
+    <td>58</td>
+    <td class="open002" id="open8"><input inputmode="numeric" type="number" name="open002" id="open8" min="0" max ="999"></td>
+    <td class="close002" id="close8"><input inputmode="numeric" type="number" name="close002" id="close8" min="0" max ="999"></td>
+    <td class="sell002" id="sell8"></td>
+  </tr>
+  <tr>
+    <td>59</td>
+    <td class="open002" id="open9"><input inputmode="numeric" type="number" name="open002" id="open9" min="0" max ="999"></td>
+    <td class="close002" id="close9"><input inputmode="numeric" type="number" name="close002" id="close9" min="0" max ="999"></td>
+    <td class="sell002" id="sell9"></td>
+  </tr>
+  <tr>
+    <td>60</td>
+    <td class="open002" id="open10"><input inputmode="numeric" type="number" name="open002" id="open10" min="0" max ="999"></td>
+    <td class="close002" id="close10"><input inputmode="numeric" type="number" name="close002" id="close10" min="0" max ="999"></td>
+    <td class="sell002" id="sell10"></td>
+  </tr>
+  <tr>
+    <td>61</td>
+    <td class="open002" id="open11"><input inputmode="numeric" type="number" name="open002" id="open11" min="0" max ="999"></td>
+    <td class="close002" id="close11"><input inputmode="numeric" type="number" name="close002" id="close11" min="0" max ="999"></td>
+    <td class="sell002" id="sell11"></td>
+  </tr>
+  <tr>
+    <td>62</td>
+    <td class="open002" id="open12"><input inputmode="numeric" type="number" name="open002" id="open12" min="0" max ="999"></td>
+    <td class="close002" id="close12"><input inputmode="numeric" type="number" name="close002" id="close12" min="0" max ="999"></td>
+    <td class="sell002" id="sell12"></td>
+  </tr>
+  <tr>
+    <td>63</td>
+    <td class="open002" id="open13"><input inputmode="numeric" type="number" name="open002" id="open13" min="0" max ="999"></td>
+    <td class="close002" id="close13"><input inputmode="numeric" type="number" name="close002" id="close13" min="0" max ="999"></td>
+    <td class="sell002" id="sell13"></td>
+  </tr>
+  <tr>
+    <td>64</td>
+    <td class="open002" id="open14"><input inputmode="numeric" type="number" name="open002" id="open14" min="0" max ="999"></td>
+    <td class="close002" id="close14"><input inputmode="numeric" type="number" name="close002" id="close14" min="0" max ="999"></td>
+    <td class="sell002" id="sell14"></td>
+  </tr>
+  <tr>
+    <td>65</td>
+    <td class="open002" id="open15"><input inputmode="numeric" type="number" name="open002" id="open15" min="0" max ="999"></td>
+    <td class="close002" id="close15"><input inputmode="numeric" type="number" name="close002" id="close15" min="0" max ="999"></td>
+    <td class="sell002" id="sell15"></td>
+  </tr>
+  <tr>
+    <td>66</td>
+    <td class="open002" id="open16"><input inputmode="numeric" type="number" name="open002" id="open16" min="0" max ="999"></td>
+    <td class="close002" id="close16"><input inputmode="numeric" type="number" name="close002" id="close16" min="0" max ="999"></td>
+    <td class="sell002" id="sell16"></td>
+  </tr>
+  <tr>
+    <td>67</td>
+    <td class="open002" id="open17"><input inputmode="numeric" type="number" name="open002" id="open17" min="0" max ="999"></td>
+    <td class="close002" id="close17"><input inputmode="numeric" type="number" name="close002" id="close17" min="0" max ="999"></td>
+    <td class="sell002" id="sell17"></td>
+  </tr>
+  <tr>
+    <td>68</td>
+    <td class="open002" id="open18"><input inputmode="numeric" type="number" name="open002" id="open18" min="0" max ="999"></td>
+    <td class="close002" id="close18"><input inputmode="numeric" type="number" name="close002" id="close18" min="0" max ="999"></td>
+    <td class="sell002" id="sell18"></td>
+  </tr>
+  <tr>
+    <td>Total:</td>
+    <td></td>
+    <td></td>
+    <td id="sell102"></td>
+  </tr>
+  <tr>
+    <td>Money:</td>
+    <td></td>
+    <td></td>
+    <td  class="Money" id="Money002"></td>
+  </tr>
+</table>
+</div>
+<div class="Table1">
+<table class = "Lottery1">
+  <tr>
+    <th>$1</th>
+    <th> Open </th>
+     <th> Close </th> 
+     <th> Sell </th>
+    </th>
+  </tr>
+  <tr> 
+    <td>69</td>
+    <td class="open001"  id="open1"><input inputmode="numeric" type="number" name="open001" id="open1" min="0" max ="999"></td>
+    <td class="close001" id="close1"><input inputmode="numeric" type="number" name="close001" id="close1" min="0" max ="999"></td>
+    <td class="sell001" id="sell1"></td>
+  </tr>
+  <tr>
+    <td>70</td>
+    <td class="open001" id="open2"><input inputmode="numeric" type="number" name="open001" id="open2" min="0" max ="999"></td>
+    <td class="close001" id="close2"><input inputmode="numeric" type="number" name="close001" id="close2" min="0" max ="999"></td>
+    <td class="sell001" id="sell2"></td>
+  </tr>
+  <tr>
+    <td>71</td>
+    <td class="open001" id="open3"><input inputmode="numeric" type="number" name="open001" id="open3" min="0" max ="999"></td>
+    <td class="close001" id="close3"><input inputmode="numeric" type="number" name="close001" id="close3" min="0" max ="999"></td>
+    <td class="sell001" id="sell3"></td>
+  </tr>
+  <tr>
+    <td>72</td>
+    <td class="open001" id="open4"><input inputmode="numeric" type="number" name="open001" id="open4" min="0" max ="999"></td>
+    <td class="close001" id="close4"><input inputmode="numeric" type="number" name="close001" id="close4" min="0" max ="999"></td>
+    <td class="sell001" id="sell4"></td>
+  </tr>
+  <tr>
+    <td>73</td>
+    <td class="open001" id="open5"><input inputmode="numeric" type="number" name="open001" id="open5" min="0" max ="999"></td>
+    <td class="close001" id="close5"><input inputmode="numeric" type="number" name="close001" id="close5" min="0" max ="999"></td>
+    <td class="sell001" id="sell05"></td>
+  </tr>
+  <tr>
+    <td>74</td>
+    <td class="open001" id="open6"><input inputmode="numeric" type="number" name="open001" id="open6" min="0" max ="999"></td>
+    <td class="close001" id="close6"><input inputmode="numeric" type="number" name="close001" id="close6" min="0" max ="999"></td>
+    <td class="sell001" id="sell6"></td>
+  </tr>
+  <tr>
+    <td>75</td>
+    <td class="open001" id="open7"><input inputmode="numeric" type="number" name="open001" id="open7" min="0" max ="999"></td>
+    <td class="close001" id="close7"><input inputmode="numeric" type="number" name="close001" id="close7" min="0" max ="999"></td>
+    <td class="sell001" id="sell7"></td>
+  </tr>
+  <tr>
+    <td>76</td>
+    <td class="open001" id="open8"><input inputmode="numeric" type="number" name="open001" id="open8" min="0" max ="999"></td>
+    <td class="close001" id="close8"><input inputmode="numeric" type="number" name="close001" id="close8" min="0" max ="999"></td>
+    <td class="sell001" id="sell8"></td>
+  </tr>
+  <tr>
+    <td>77</td>
+    <td class="open001" id="open9"><input inputmode="numeric" type="number" name="open001" id="open9" min="0" max ="999"></td>
+    <td class="close001" id="close9"><input inputmode="numeric" type="number" name="close001" id="close9" min="0" max ="999"></td>
+    <td class="sell001" id="sell9"></td>
+  </tr>
+  <tr>
+    <td>78</td>
+    <td class="open001" id="open10"><input inputmode="numeric" type="number" name="open001" id="open10" min="0" max ="999"></td>
+    <td class="close001" id="close10"><input inputmode="numeric" type="number" name="close001" id="close10" min="0" max ="999"></td>
+    <td class="sell001" id="sell10"></td>
+  </tr>
+  <tr>
+    <td>Total:</td>
+    <td></td>
+    <td></td>
+    <td id="sell103"></td>
+  </tr>
+  <tr>
+   <td>Money:</td>
+   <td></td>
+   <td></td>
+   <td class="Money" id="Money001"></td>
+  </tr>
+</table>
+</div>
+<div class="money1">
+  <table class = "LotteryTotal">
+    <tr>
+      <th> Total Money </th>
+      </th>
+    </tr>
+    <tr> 
+      <td class="MoneyTotalC"  id="MoneyTotal"></td>
+    </tr>
+  </table>
+</div>
+
+  <script src="TableManager.js"></script>
+</body>
+</html>
